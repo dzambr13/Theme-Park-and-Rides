@@ -5,6 +5,7 @@ import Nav from './components/Nav'
 import Parks from './components/Parks'
 import axios from 'axios'
 import { useState, useEffect } from 'react'
+import ParkDetails from './components/ParkDetails'
 
 const BASE_URL = 'http://localhost:3001/api'
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/parks" element={<Parks parks={parks} />} />
+          <Route path="/parks/:id" element={<ParkDetails />} />
           {''}
         </Routes>
       </main>

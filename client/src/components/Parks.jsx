@@ -1,10 +1,11 @@
 import { useNavigate } from 'react-router-dom'
 
+
 const Parks = (props) => {
   let navigate = useNavigate()
 
   const showPark = (park) => {
-    navigate(`${park.id}`)
+    navigate(`${park._id}`)                   
   }
 
 
