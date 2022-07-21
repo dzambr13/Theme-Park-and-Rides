@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+div {
+  background-size: cover;
+}
+
+.home, .home div {
+  display: flex;
+}
+
+.home, .home div {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
+.home div {
+flex-direction: column;
+}
+
+.home div{
+  height: 40em;
+  width: 30em;
+}
+
+
