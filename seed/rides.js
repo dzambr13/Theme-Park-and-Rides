@@ -27,8 +27,8 @@ const main = async () => {
       description: 'The third happiest place on earth',
       rating: '4 stars',
       rides: 'Pirate Falls, Fairy Tale Brook',
-      price: '$84.99/person'
-      // id: 62d97dd7af5aa3f47fcd1034
+      price: '$84.99/person',
+      id: '62d97dd7af5aa3f47fcd1034'
     }
   ]
 

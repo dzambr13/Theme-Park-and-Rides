@@ -10,7 +10,7 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 app.use(logger('dev'))
-app.use(express.urlenencoded({ extended: false }))
+app.use(express.urlencoded({ extended: false }))
 
 app.use('/api', routes)
 
