@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/dzambr13/Theme-Park-and-Rides#readme",
   "dependencies": {
-    "express": "^4.18.1",
     "mongoose": "^6.4.6",
     "morgan": "^1.10.0"
   },
