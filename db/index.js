@@ -1,9 +1,8 @@
 const mongoose = require('mongoose')
-
-let MONGODB_URI = 'mongodb://127.0.0.1:27017/ridesDatabase'
+require("dotenv").config();
 
 mongoose
-  .connect(MONGODB_URI, { useUnifiedTopology: true, useNewUrlParser: true })
+  .connect(MONGODB_URI)
   .then(() => {
     console.log('Successfully connected to MongoDB.')
   })
