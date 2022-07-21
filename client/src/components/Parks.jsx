@@ -11,7 +11,7 @@ const Parks = (props) => {
 return (
     <div className="park-grid">
       {
-        props.park.map((park) =>(
+        props.parks?.map((park) =>(
           <div className="park-card" onClick={() => showPark(park)} key={park.id}>
             <img style={{display : 'block'}} src={park.img} alt={park.name} />
             <h3>{park.name}</h3>
