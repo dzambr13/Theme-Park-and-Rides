@@ -29,7 +29,7 @@ const main = async () => {
     }
   ]
 
-  await Rides.inesrtMany(rides)
+  await Rides.insertMany(rides)
   console.log('Made some rides!')
 }
 const run = async () => {
