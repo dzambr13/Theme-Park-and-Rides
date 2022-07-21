@@ -1,4 +1,4 @@
-const Rides = require('../modules/rides')
+const Rides = require('../models/rides')
 
 const createRide = async (req, res) => {
   try {
@@ -36,16 +36,10 @@ const getRideById = async (req, res) => {
 
 const updateRide = async (req, res) => {
   try {
-    const { id } = req.params
-    await Rides.findByIdAndUpdate(id, req, body, { new: true }, (err, ride) => {
-      if (err) {
-        res.status(500).send(err)
-      }
-      if (!ride) {
-        res.status(500).send('Ride not found!')
-      }
-      return res.status(500).send(error.message)
+    const ride = await Ride.findByIdAndUpdate(req.params.id, req.body, {
+      new: true
     })
+    res.status(200).json(ride)
   } catch (error) {
     return res.status(500).send(error.message)
   }
