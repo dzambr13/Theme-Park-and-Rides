@@ -5,7 +5,7 @@ div {
   background-size: cover;
 }
 
-.home, .home div {
+.home, .home div, .navbar {
   display: flex;
 }
 
@@ -23,6 +23,23 @@ flex-direction: column;
 .home div{
   height: 40em;
   width: 30em;
+}
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: black;
+  padding: 1em;
+  min-height: 2em;
+  font-family: 'Georgia';
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 0.5em;
 }
 
 
