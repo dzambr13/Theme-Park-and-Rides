@@ -1,0 +1,30 @@
+{
+  "name": "theme-park-and-rides",
+  "version": "1.0.0",
+  "description": "Will is dumb second edit",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dzambr13/Theme-Park-and-Rides.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dzambr13/Theme-Park-and-Rides/issues"
+  },
+  "homepage": "https://github.com/dzambr13/Theme-Park-and-Rides#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.4.6",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
