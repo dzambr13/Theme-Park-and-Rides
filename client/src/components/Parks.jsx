@@ -13,7 +13,7 @@ return (
       {
         props.parks?.map((park) =>(
           <div className="park-card" onClick={() => showPark(park)} key={park.id}>
-            <img style={{display : 'block'}} src={park.img} alt={park.name} />
+            <img style={{display : 'block'}} src={park.image} alt={park.name} />
             <h3>{park.name}</h3>
             </div>
         ))}
