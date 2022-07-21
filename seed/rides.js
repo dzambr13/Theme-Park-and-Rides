@@ -20,7 +20,7 @@ const main = async () => {
       description: 'The second happiest place on earth',
       rating: '4.5 stars',
       rides:
-        'Rock n Roller Coasater Starring Aerosmith, Star Wars: Ride of the REsistance',
+        'Rock n Roller Coasater Starring Aerosmith, Star Wars: Ride of the Resistance',
       price: '$109.00/person',
       image: 'https://flyclipart.com/thumb2/clipart-disney-parks-459226.png',
       id: '62d97dd7af5aa3f47fcd1033'
