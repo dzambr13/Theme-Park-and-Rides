@@ -13,7 +13,7 @@ const main = async () => {
       rides: 'Rides: Spash Moutain, Space Mountain',
       price: 'Price: $100.00/person',
       image:
-        'https://library.kissclipart.com/20180906/ruw/kissclipart-disney-world-clipart-disneyland-magic-kingdom-clip-a8cf97b09e15d788.jpg',
+        'https://blog.logomyway.com/wp-content/uploads/2017/03/disney-logo-2.jpg',
       id: '62d97dd7af5aa3f47fcd1032'
     },
     {
@@ -23,7 +23,8 @@ const main = async () => {
       rides:
         'Rides: Rock n Roller Coasater Starring Aerosmith, Star Wars: Ride of the Resistance',
       price: 'Price: $109.00/person',
-      image: 'https://flyclipart.com/thumb2/clipart-disney-parks-459226.png',
+      image:
+        'https://www.pngitem.com/pimgs/m/17-171680_disney-world-florida-logo-hd-png-download.png',
       id: '62d97dd7af5aa3f47fcd1033'
     },
     {
@@ -33,13 +34,13 @@ const main = async () => {
       rides: 'Rides: Pirate Falls, Fairy Tale Brook',
       price: 'Price: $84.99/person',
       image:
-        'https://e7.pngegg.com/pngimages/395/361/png-clipart-legoland-california-resort-logo-brand-legoland-drive-legoland-logo-text-retail-thumbnail.png',
+        'https://www.pngitem.com/pimgs/m/319-3193244_legoland-logo-hd-png-download.png',
       id: '62d97dd7af5aa3f47fcd1034'
     },
     {
       name: 'Will Land',
       description:
-        "The least happiest place on earth, you have to ask yourself before you come here, 'should I really be here right now?'. The answer is no, who would ever come to Will land unless they really have to. To the worlds surprise, this place is still up and functioning. If you were to ask me, just go take a walk in your neghborhood, you'll probably have more fun.",
+        "The least happiest place on earth, you have to ask yourself before you come here, 'should I really be here right now?'. The answer is no, who would ever come to Will land unless they really have to. To the worlds surprise, this place is still up and functioning. If you were to ask me, just go take a walk in your neighborhood, you'll probably have more fun.",
       rating: 'Rating: -100 stars',
       rides: 'Rides: L roller, L coaster',
       price: 'Price: Free',
@@ -61,7 +62,7 @@ const main = async () => {
       name: 'Viry Land',
       description:
         "Just like the owner of this sorry excuse for an amusement park, Viry Land is LOST. They say being here is the new form of torture and it's SO BAD that they PAY you to be here. The only good thing about this place is, this is where Doctors recommend their depressed patients to go to feel happy again.",
-      rating: 'Rating: :( ',
+      rating: 'Rating: 🙃 ',
       rides: 'Rides: Watching Paint Dry',
       price: 'Price: +$15.00/person',
       image:
