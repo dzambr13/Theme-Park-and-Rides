@@ -1,8 +1,6 @@
 const db = require('../db')
 const Ride = require('../models/rides')
-
 db.on('error', console.error.bind(console, 'MongoDB connection error:'))
-
 const main = async () => {
   Ride.collection.drop()
   const rides = [
@@ -69,7 +67,6 @@ const main = async () => {
       id: '62d97dd7af5aa3f47fcd1034'
     }
   ]
-
   await Ride.insertMany(rides)
   console.log('Made some rides!')
 }
@@ -77,5 +74,4 @@ const run = async () => {
   await main()
   db.close()
 }
-
 run()
