@@ -6,9 +6,11 @@ import Parks from './components/Parks'
 import axios from 'axios'
 import { useState, useEffect } from 'react'
 import ParkDetails from './components/ParkDetails'
-import SubmitRating from './components/SubmitRating'
+import Form from './components/Form'
+import Thanks from './components/Thanks'
 
 const BASE_URL = 'http://localhost:3001/api'
+
 const App = () => {
   const [parks, setParks] = useState([])
   useEffect(() => {
@@ -29,7 +31,8 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/parks" element={<Parks parks={parks} />} />
           <Route path="/parks/:id" element={<ParkDetails />} />
-          {''}
+          <Route path="/form" element={<Form />} />
+          <Route path="/thanks" element={<Thanks />} />
         </Routes>
       </main>
     </div>
