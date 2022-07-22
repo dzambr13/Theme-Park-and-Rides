@@ -11,7 +11,7 @@ const Home = () => {
       </div>
       <div>
         <h1>Welcome to the Shitshow</h1>
-        <h2>The best place to be for the worst reviews possible. Fuck off.</h2> 
+        <h2>High quality website, low quality reviews.</h2> 
       </div>
       </div>
       

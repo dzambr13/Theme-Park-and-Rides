@@ -29,6 +29,7 @@ const ParkDetails = (props) => {
       <div className="info-wrapper">
         <div style={{display: 'flex', justifyContent: 'space-between'}}>
           <h1>{park.rides}</h1>
+          <h4>{park.price}</h4>
           <h3>{park.rating}</h3>
         </div>
         <h3>{park.description}</h3>
