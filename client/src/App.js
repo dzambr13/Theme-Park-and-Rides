@@ -6,6 +6,7 @@ import Parks from './components/Parks'
 import axios from 'axios'
 import { useState, useEffect } from 'react'
 import ParkDetails from './components/ParkDetails'
+import SubmitRating from './components/SubmitRating'
 
 const BASE_URL = 'http://localhost:3001/api'
 const App = () => {
