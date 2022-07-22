@@ -13,4 +13,6 @@ router.post('/rides', controllers.createRide)
 router.put('/rides/:id', controllers.updateRide)
 router.delete('/rides/:id', controllers.deleteRide)
 
+router.post('/account', controllers.createAccount)
+
 module.exports = router

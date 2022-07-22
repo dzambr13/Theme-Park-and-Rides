@@ -28,10 +28,10 @@ const ParkDetails = (props) => {
       </div>
       <div className="info-wrapper">
         <div style={{display: 'flex', justifyContent: 'space-between'}}>
-          <h3>{park.description}</h3>
+          <h1>{park.rides}</h1>
           <h3>{park.rating}</h3>
         </div>
-        <p>{park.rides}</p>
+        <h3>{park.description}</h3>
       </div>
     </div>
   ) : null;
