@@ -118,3 +118,36 @@ h1, h2, h3, h4 {
   min-height: 35em;
   justify-content: space-between;
 }
+
+form {
+  background-color: black;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 20em;
+  min-height: 10em;
+  margin: 2em auto;
+  border-radius: 0.25em;
+}
+
+form input {
+  display: block;
+  padding: 0.25em;
+}
+
+button, input {
+  outline: none;
+  border: none;
+  border-radius: 0.25em;
+}
+
+button {
+  padding: 0.5em 2em;
+  background-color: white;
+  font-family: 'Georgia';
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1em;
+}
